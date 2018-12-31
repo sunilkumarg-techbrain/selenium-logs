@@ -1,6 +1,6 @@
 ECHO ON
 
-CALL Powershell.exe -executionpolicy remotesigned -File  allure-results-screenshots-deletion.ps1
+CALL Powershell.exe -executionpolicy remotesigned -File  allure-screenshots-log4j-log-deletion.ps1
 
 IF EXIST target\allure-reports\CHROME\history (
                 IF EXIST history\CHROME\history (

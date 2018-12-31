@@ -39,7 +39,6 @@ public class GoogleSearchBasePage {
 	 */
 	public GoogleSearchBasePage() {
 		super();
-		counter = 0;
 		googleUtils = new GoogleUtils();
 		implicitTimeOutInSeconds = 1;
 		timeOutInSeconds = 15;
